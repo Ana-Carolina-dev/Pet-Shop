@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawly - Mais amor em cada patinha</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Pawly" class="logo-img"> Pawly
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <a href="produtos.html">
+    Produtos
+</a>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#" class="conta-link">Conta</a>
+            <button class="cart-btn" id="cartBtn">
+      🛒 Carrinho
+      <span class="cart-count" id="cartCount">2</span>
+    </button>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Tudo que seu <span class="accent">pet precisa,</span> num só lugar </h1>
+            <p class="subtitle">Produtos, serviços e veterinários especializados para o bem-estar do seu melhor amigo.</p>
+
+            <form class="search-bar" id="searchForm">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Pesquisar produtos ou serviços..." id="searchInput">
+                <button type="submit">Buscar</button>
+            </form>
+
+            <div class="chip-row" id="chipRow">
+                <button class="chip" data-cat="racoes">🍖 Rações</button>
+                <button class="chip" data-cat="brinquedos">🦴 Brinquedos</button>
+                <button class="chip" data-cat="banho">🛁 Banho</button>
+                <button class="chip" data-cat="vacinas">💉 Vacinas</button>
+                <button class="chip" data-cat="remedios">💊 Remédios</button>
+                <button class="chip" data-cat="veterinarios">🩺 Veterinários</button>
+            </div>
+
+            <div class="badge-row">
+                <span class="badge"><span class="check">✔</span> 100% Natural</span>
+                <span class="badge"><span class="check">✔</span> Vet Aprovado</span>
+                <span class="badge"><span class="check">✔</span> Sem Conservantes</span>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="img-wrap">
+                <img src="img/dog1.png" alt="Cão feliz ">
+            </div>
+            <div class="clinic-card">
+                <div class="icon">📱</div>
+                <div class="info">
+                    <strong>Clínica Aberta</strong>
+                    <span>Seg-Sáb 8h–19h</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-item">
+            <strong>+15 anos</strong>
+            <span>Cuidando do seu<br>melhor amigo</span>
+        </div>
+        <div class="stat-item">
+            <strong>12.000+</strong>
+            <span>Clientes satisfeitos</span>
+        </div>
+        <div class="stat-item">
+            <strong>100%</strong>
+            <span>Produtos certificados</span>
+        </div>
+        <div class="stat-item">
+            <strong>10+ Vets</strong>
+            <span>Veterinários<br>especializados</span>
+        </div>
+    </section>
+
+
+
+    <!-- pag 2-->
+
+
+    <section class="best-sellers">
+
+        <div class="section-title">
+            <h2>Produtos mais vendidos</h2>
+            <p>Os favoritos dos nossos clientes 🐾</p>
+        </div>
+
+
+        <!-- RAÇÕES -->
+        <div class="category">
+
+            <h3>🍖 Rações</h3>
+
+            <div class="products">
+
+                <div class="product-card">
+
+                    <img src="img/racao1.png" alt="Ração premium">
+
+                    <div class="product-info">
+
+                        <h4>Ração Premium Adultos</h4>
+
+                        <p>
+                            Nutrição completa para cães adultos.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                            R$ 89,90
+                        </strong>
+
+                            <button>
+                            🛒
+                        </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="product-card">
+
+                    <img src="img/racao2.png" alt="Ração natural">
+
+                    <div class="product-info">
+
+                        <h4>Ração Natural</h4>
+
+                        <p>
+                            Ingredientes selecionados.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                            R$ 119,90
+                        </strong>
+
+                            <button>
+                            🛒
+                        </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- BRINQUEDOS -->
+
+        <div class="category">
+
+            <h3>🦴 Brinquedos</h3>
+
+
+            <div class="products">
+
+
+                <div class="product-card">
+
+                    <img src="img/brinquedo1.png">
+
+                    <div class="product-info">
+
+                        <h4>Bola Interativa</h4>
+
+                        <p>
+                            Diversão e estímulo mental.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong>
+                            R$ 29,90
+                        </strong>
+
+
+                            <button>
+                            🛒
+                        </button>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- BANNER -->
+
+    <section class="promo-banner">
+
+        <div>
+
+            <h2>
+                Mais amor em cada patinha 🐾
+            </h2>
+
+            <p>
+                Produtos escolhidos para cuidar do seu melhor amigo.
+            </p>
+
+
+            <button>
+            Comprar agora
+        </button>
+
+
+        </div>
+        <section class="promo-banner">
+
+            <div>
+
+                <h2>
+                    Mais amor em cada patinha 🐾
+                </h2>
+
+                <p>
+                    Produtos escolhidos para cuidar do seu melhor amigo.
+                </p>
+
+                <button>
+            Comprar agora
+        </button>
+
+            </div>
+
+        </section>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
