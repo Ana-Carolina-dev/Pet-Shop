@@ -44,9 +44,6 @@ button {
     border: none;
 }
 
-
-/* header / cabeçario  */
-
 header {
     display: flex;
     align-items: center;
@@ -147,9 +144,6 @@ nav.main-nav a:focus-visible {
     justify-content: center;
     border: 2px solid var(--white);
 }
-
-
-/* ---------- HERO ---------- */
 
 .hero {
     background: var(--green-50);
@@ -344,7 +338,6 @@ nav.main-nav a:focus-visible {
 }
 
 
-/* ---------- STATS ---------- */
 
 .stats {
     background: var(--green-900);
@@ -372,7 +365,7 @@ nav.main-nav a:focus-visible {
 }
 
 
-/* ---------- RESPONSIVE ---------- */
+/* para funcionar */
 
 @media (max-width: 980px) {
     header {
@@ -426,212 +419,4 @@ nav.main-nav a:focus-visible {
     outline-offset: 2px;
 }
 
-
-/* ---------------pag 2 ------------------*/
-
-
-/* ==============================
-   BEST SELLERS
-================================ */
-
-.best-sellers {
-    padding: 90px 8%;
-    background: var(--green-50);
-}
-
-
-/* TÍTULO */
-
-.section-title {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.section-title h2 {
-    font-size: 2.5rem;
-    color: var(--green-900);
-    margin-bottom: 12px;
-}
-
-.section-title p {
-    color: var(--text-muted);
-    font-size: 1.1rem;
-}
-
-
-/* ==============================
-   CATEGORIAS
-================================ */
-
-.category {
-    margin-bottom: 50px;
-}
-
-.category h3 {
-    color: var(--brown-700);
-    font-size: 1.7rem;
-    margin-bottom: 25px;
-}
-
-
-/* CONTAINER DOS PRODUTOS */
-
-.products {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(260px, 1fr));
-    gap: 30px;
-}
-
-
-/* ==============================
-   CARD PRODUTO
-================================ */
-
-.product-card {
-    background: var(--white);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-soft);
-    transition: .3s ease;
-}
-
-.product-card:hover {
-    transform: translateY(-8px);
-}
-
-
-/* IMAGEM PRODUTO */
-
-.product-card img {
-    width: 100%;
-    height: 230px;
-    object-fit: contain;
-    padding: 25px;
-    background: var(--brown-100);
-}
-
-
-/* INFORMAÇÕES */
-
-.product-info {
-    padding: 25px;
-}
-
-.product-info h4 {
-    font-size: 1.3rem;
-    color: var(--text-dark);
-    margin-bottom: 10px;
-}
-
-.product-info p {
-    color: var(--text-muted);
-    font-size: .95rem;
-    line-height: 1.5;
-    min-height: 45px;
-    margin-bottom: 20px;
-}
-
-
-/* PREÇO + CARRINHO */
-
-.product-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.product-bottom strong {
-    color: var(--green-900);
-    font-size: 1.4rem;
-}
-
-
-/* BOTÃO CARRINHO */
-
-.product-bottom button {
-    width: 45px;
-    height: 45px;
-    border-radius: var(--radius-pill);
-    border: none;
-    background: var(--green-700);
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.product-bottom button:hover {
-    background: var(--green-900);
-    transform: scale(1.1);
-}
-
-
-/* ==============================
-   BANNER CACHORRO
-================================ */
-
-.promo-banner {
-    margin-top: 70px;
-    min-height: 350px;
-    border-radius: 30px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    background-image: linear-gradient( 90deg, rgba(73, 107, 74, .9), rgba(73, 107, 74, .3)), url("img/cachorro-banner.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-
-/* TEXTO DO BANNER */
-
-.promo-banner div {
-    max-width: 500px;
-    color: white;
-}
-
-.promo-banner h2 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-}
-
-.promo-banner p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-}
-
-.promo-banner button {
-    background: white;
-    color: var(--green-900);
-    border: none;
-    padding: 15px 35px;
-    border-radius: var(--radius-pill);
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.promo-banner button:hover {
-    background: var(--green-100);
-}
-
-
-/* ==============================
-   MOBILE
-================================ */
-
-@media(max-width:768px) {
-    .best-sellers {
-        padding: 60px 5%;
-    }
-    .section-title h2 {
-        font-size: 2rem;
-    }
-    .promo-banner {
-        padding: 30px;
-    }
-    .promo-banner h2 {
-        font-size: 1.8rem;
-    }
-}
+/*
